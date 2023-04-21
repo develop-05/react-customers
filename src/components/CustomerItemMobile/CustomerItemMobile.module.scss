@@ -1,0 +1,78 @@
+@media(max-width:767px) {
+    .customer__item_mobile {
+        margin-bottom: 30px;
+        display: block;
+
+        .item__mobile {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.01em;
+            color: #B5B7C0;
+
+            span {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 21px;
+                letter-spacing: -0.01em;
+                color: #292D32;
+            }
+
+         
+        }
+
+        .status__mobile{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.01em;
+            color: #B5B7C0;
+        }
+
+
+        .item__active {
+            display: inline-block;
+            margin-left: 60px;
+            width: 80px;
+            margin-bottom: 4px;
+            background: rgba(22, 192, 152, 0.38);
+            border: 1px solid #00B087;
+            border-radius: 4px;
+            position: relative;
+            bottom: 22px;
+    
+            span {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.01em;
+                color: #008767;
+                padding-left: 18px;
+            }
+        }
+    
+        .item__inactive {
+            display: inline-block;
+            margin-left: 60px;
+            width: 80px;
+            margin-bottom: 4px;
+            background: #FFC5C5;
+            border: 1px solid #DF0404;
+            border-radius: 4px;
+            position: relative;
+            bottom: 22px;
+    
+            span {
+                color: #DF0404;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.01em;
+                padding-left: 12px;
+            }
+        }
+
+
+
+    }
+}
